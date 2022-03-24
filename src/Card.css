@@ -1,0 +1,25 @@
+img {
+  transition: transform 0.2s ease;
+  margin: auto;
+  margin-top: 2px;
+  border-radius: 3px;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+img:hover {
+  transform: scale(1.3);
+}
+
+.card {
+  width: 30px;
+  height: 130px;
+}
+
+.card:hover {
+  border: 1px solid rgb(180, 107, 39);
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+.spesial {
+  display: none;
+}
